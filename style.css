@@ -93,7 +93,7 @@
 /* body start */
 .body{
    display: flex;
-   height: 100vh;
+   height: auto;
    width: 100wh;
    gap: 20px;
    background-color: black;
@@ -101,7 +101,7 @@
 }
 .body_left{
    height: auto;
-   width: 500px;
+   width: 600px;
    background-color: rgba(53, 53, 53, 0.377);
    padding: 10px;
    border-radius: 10px;
@@ -109,10 +109,11 @@
 }
 .body_right{
     background-color: rgba(53, 53, 53, 0.377);
-    height: auto;
+    height: 670px;
     width: 100%;
     border-radius: 10px;
     padding: 20px;
+    overflow: auto;
 }
 .left{
     height: 360px;
@@ -178,6 +179,34 @@ span{
     border: 1px solid white;
     border-radius: 20px;
     margin-left: 28px;
+}
+
+/* Right side start */
+.right_main{
+    height: 300px;
+    width: 100%;
+}
+.r_top{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.r_cen{
+    gap: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+.artist > img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.album{
+    border-radius: 10px !important; 
 }
 
 
