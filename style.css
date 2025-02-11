@@ -208,6 +208,15 @@ span{
 .album{
     border-radius: 10px !important; 
 }
+.foot{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot1 > p{
+    color: rgb(74, 32, 32);
+}
 
 
 
